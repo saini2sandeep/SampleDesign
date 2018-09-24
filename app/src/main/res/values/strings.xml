@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Multi Task App</string>
+
+
+    <string-array name="security_questions">
+        <item>Your first pet name ?</item>
+        <item>Your school name ?</item>
+        <item>Your favourite Band/Movie/Book ?</item>
+        <item>Where were you born/married ?</item>
+        <item>Your first friend name ?</item>
+        <item>Your parents middle name ?</item>
+    </string-array>
+    <string name="title_activity_bottam_navigation">BottamNavigationActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_drawer">DrawerActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="image_urls">
+        <item>    https://homepages.cae.wisc.edu/~ece533/images/airplane.png</item>
+        <item>    https://homepages.cae.wisc.edu/~ece533/images/arctichare.png</item>
+        <item>    https://homepages.cae.wisc.edu/~ece533/images/girl.png</item>
+        <item>    https://homepages.cae.wisc.edu/~ece533/images/peppers.png</item>
+        <item>    https://homepages.cae.wisc.edu/~ece533/images/boat.png</item>
+        <item>    https://homepages.cae.wisc.edu/~ece533/images/fruits.png</item>
+        <item>    https://homepages.cae.wisc.edu/~ece533/images/mountain.png</item>
+        <item>    https://homepages.cae.wisc.edu/~ece533/images/boat.png</item>
+        <item>    https://homepages.cae.wisc.edu/~ece533/images/barbara.png</item>
+        <item>    https://homepages.cae.wisc.edu/~ece533/images/tulips.png</item>
+    </string-array>
+
+
+    <string-array name="dummy_data">
+        <item> The Apollo program, also known as Project Apollo, was the third United States human spaceflight program carried out by the National Aeronautics and Space Administration (NASA), which accomplished landing the first humans on the Moon from 1969 to 1972. First conceive</item>
+        <item>during Dwight D. Eisenhower's administration as a three-man spacecraft to follow the one-man Project Mercury w</item>
+        <item> hich put the first Americans in space, Apollo was later dedicated to President John F. Kennedy's national goal of "landing a man on the Mo</item>
+        <item> on and returning him safely to the Earth" by the end of the 1960s, which he proposed in an address to Congress on May 25, 1961. It was the third US human spaceflight program to fly, preceded by the two-man Project Gemini conceived in 1961 to extend spaceflight capability in support of Apollo.Kennedy's goal was accomplished on the Apollo 11 mission when astronauts Neil Armstrong and Buzz Aldrin landed their Lunar Module (LM) o</item>
+        <item> Astronaut Buzz Aldrin stands on the Moon Buzz Aldrin (pictured) walked on the Moon with Neil Armstrong, on Apollo 11, July 20–21, 1969</item>
+        <item>July 20, 1969, and walked on the lunar surface, while Michael Collins remained in lunar orbit in the Command/Service Module (CSM), and all three landed safely on Earth on July 24. Five subsequent Apollo missions also landed astronauts on the Moon, the last in December 1972. In these six spaceflights, twelve men walked on the Moon.</item>
+        <item>Earthrise, an iconic image from the 1968 Apollo 8 mission</item>
+        <item>Apollo ran from 1961 to 1972, with the first manned flight in 1968. It achieved its goal of manned lunar landing, d</item>
+        <item>espite the major setback of a 1967 Apollo 1 cabin fire that killed the entire crew during a prelaunch test. After the first</item>
+        <item>landing, sufficient flight hardware remained for nine follow-on landings with a plan for extended lunar geological and astrophysical exploration. Budget cuts forced the cancellation of three of these. Five of the remaining six missions achieved successful landings, but the Apollo</item>
+        <item>13 landing was prevented by an oxygen tank explosion in transit to the Moon, which destroyed the Service Module's capability to provide electrical power, crippling the CSM's propulsion and life support systems. The crew returned to Earth safely by using the Lunar Module as a "lifeboat" for these functions. Apollo used Saturn family rockets as launch vehicles, which were also used for an Apollo Applications Program, which consisted of Skylab, a space station that supported three manned missions in 1973–74, and the Apollo–Soyuz Test Project, a joint US-Soviet Union Earth-orbit mission in 1975.</item>
+
+    </string-array>
+
+
+</resources>

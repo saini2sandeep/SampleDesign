@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:color="#f99f00" android:state_checked="true" />
+    <item android:color="#e4e4e4" android:state_checked="false" />
+</selector>
+
+
+    <!--<?xml version="1.0" encoding="utf-8"?><selector xmlns:android="http://schemas.android.com/apk/res/android">-->
+<!--<item android:drawable="@drawable/calender_green"-->
+<!--<item android:drawable="@drawable/calender_black"-->
+<!--</selector>-->
