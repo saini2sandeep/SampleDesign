@@ -1,4 +1,4 @@
-package com.example.sandeepsaini.multitaskapp;
+package com.example.sandeepsaini.multitaskapp.bottom_nav;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -20,12 +20,19 @@ import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.example.sandeepsaini.multitaskapp.BottomNavigationViewHelper;
+import com.example.sandeepsaini.multitaskapp.ExpendListActivity;
+import com.example.sandeepsaini.multitaskapp.ExpendableListActivity2;
+import com.example.sandeepsaini.multitaskapp.HomeFragment;
+import com.example.sandeepsaini.multitaskapp.HomePageActivity;
+import com.example.sandeepsaini.multitaskapp.R;
+import com.example.sandeepsaini.multitaskapp.VegitableFragment;
+
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
 public class DrawerActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
-
 
     private TextView stories;
     private TextView noticeBoard;
@@ -151,7 +158,6 @@ public class DrawerActivity extends AppCompatActivity
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
-
 
     private TextView mTextMessage;
 

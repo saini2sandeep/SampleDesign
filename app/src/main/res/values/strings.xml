@@ -15,12 +15,26 @@
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
     <string name="title_activity_drawer">DrawerActivity</string>
+    <string name="title_forum">Forum</string>
+    <string name="title_email">Email</string>
+
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_title">Android Studio</string>
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
+    <string name="back_button">Back Button</string>
+
+    <string name="alert_dialog">Alert Dialog</string>
+    <string name="bottom_navigation_with_drawer">BottomNavigation with Drawer</string>
+    <string name="bottom_navigation">Bottom Navigation</string>
+    <string name="sample_home_fragment">Sample Home Fragment</string>
+    <string name="sample_forum_fragment">Sample Forum Fragment</string>
+    <string name="sample_email_fragment">Sample Email Fragment</string>
+    <string name="sample_dashboard_fragment">Sample Dashboard Fragment</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
 
     <string-array name="image_urls">
         <item>    https://homepages.cae.wisc.edu/~ece533/images/airplane.png</item>

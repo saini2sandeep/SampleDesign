@@ -55,6 +55,8 @@ public class HomePageActivity extends AppCompatActivity implements StoriesAdapte
 
         setDataToUI();
 
+
+
         recyclerView.addOnScrollListener(new RecyclerView.OnScrollListener() {
             @Override
             public void onScrollStateChanged(RecyclerView recyclerView, int newState) {
@@ -62,6 +64,9 @@ public class HomePageActivity extends AppCompatActivity implements StoriesAdapte
                 previousVisiblePosition = linearLayoutManager.findFirstVisibleItemPosition();
                 imagePosition = currentVisiblePosition;
                 super.onScrollStateChanged(recyclerView, newState);
+
+//                viewPager.setMinimumWidth(screenWidth);
+
 
 //                viewPager.setCurrentItem(currentVisiblePosition,true);
 
@@ -82,29 +87,22 @@ public class HomePageActivity extends AppCompatActivity implements StoriesAdapte
                 Log.d("Sandy", "Dx : " + dx);
                 Log.d("Sandy", "Dy : " + dy);
 
-                
-
-
-
-
+//                viewPager.scrollBy(dx, dy);
 
 //                if(dx>130 || dx<-130){
 //                    viewPager.setCurrentItem(currentVisiblePosition,true);
 //                }
-//                else if(dx > 0)
-//                viewPager.scrollBy(dx+5, dy);
-//                else
-//                viewPager.scrollBy(dx-5,dy);
 
-//                if (dx > 20) {
-//                    rightScroll = 0;
-//                    rightScroll = dx + 16;
-//                    viewPager.scrollBy(rightScroll, dy);
-//                } else if (dx < -20) {
-//                    leftScroll = 0;
-//                    leftScroll = dx - 16;
-//                    viewPager.scrollBy(leftScroll, dy);
-//                }
+
+                if (dx > 20) {
+                    rightScroll = 0;
+                    rightScroll = dx + 16;
+                    viewPager.scrollBy(rightScroll, dy);
+                } else if (dx < -20) {
+                    leftScroll = 0;
+                    leftScroll = dx - 16;
+                    viewPager.scrollBy(leftScroll, dy);
+                }
             }
         });
     }

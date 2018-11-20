@@ -14,7 +14,7 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
-public class BottamNavigationActivity extends AppCompatActivity implements ViewPager.OnPageChangeListener{
+public class BottomNavigationActivity extends AppCompatActivity implements ViewPager.OnPageChangeListener{
 
     @BindView(R.id.toolbar_title_tv)
     TextView toolBarTitleTV;
@@ -26,7 +26,6 @@ public class BottamNavigationActivity extends AppCompatActivity implements ViewP
 
     private BottomNavViewPagerAdapter bottomNavViewPagerAdapter;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -37,6 +36,10 @@ public class BottamNavigationActivity extends AppCompatActivity implements ViewP
 
         setUpBottomNavViewPager();
 
+        /*
+        Uncomment this line to disable the shifting animation in the bottom navigation view
+         */
+//        BottomNavigationViewHelper.disableShiftMode(bottomNavigation);
 
         bottomNavigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
     }

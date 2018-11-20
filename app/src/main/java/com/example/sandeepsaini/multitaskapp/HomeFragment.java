@@ -5,6 +5,7 @@ import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -60,16 +61,27 @@ public class HomeFragment extends Fragment {
         String value = editText.getText().toString().trim();
 
         if (!TextUtils.isEmpty(value)) {
-            int result = (Integer.parseInt(value))*3;
+            int result = (Integer.parseInt(value)) * 3;
 
 //            int result1 = result * 3;
-            textView.setText(String.valueOf((Float.parseFloat(value))*0.02));
+            textView.setText(String.valueOf((Float.parseFloat(value)) * 0.02));
         }
     }
 
 
     @OnClick(R.id.button)
-    void buttonClick(View view){
-        setData();
+    void buttonClick(View view) {
+
+//        AlertUtils alertUtils = new AlertUtils(getContext(), new AlertUtils.AlertDialogListener() {
+//            @Override
+//            public void onClick(int a) {
+//                if (a == 1) {
+//                    // Do your work on Positive button click
+//                } else {
+//                    // Do your work on Negative button click
+//                }
+//            }
+//        });
+//        alertUtils.ShowAlertWithTwoButtons("Alert Dialog", "Alert Dialog Description ", "Positive", "Negative");
     }
 }

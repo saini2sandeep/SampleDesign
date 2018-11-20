@@ -3,6 +3,12 @@
     package="com.example.sandeepsaini.multitaskapp">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
 
     <application
         android:allowBackup="true"
@@ -20,16 +26,19 @@
         </activity>
         <activity android:name=".Spinner" />
         <activity
-            android:name=".BottamNavigationActivity"
+            android:name=".BottomNavigationActivity"
             android:label="@string/title_activity_bottam_navigation" />
         <activity
-            android:name=".DrawerActivity"
+            android:name=".bottom_nav.DrawerActivity"
             android:label="@string/title_activity_drawer"
             android:theme="@style/AppTheme.Base" />
         <activity android:name=".XyzActivity" />
         <activity android:name=".ExpendListActivity" />
         <activity android:name=".ExpendableListActivity2" />
-        <activity android:name=".HomePageActivity"></activity>
+        <activity android:name=".HomePageActivity" />
+        <activity android:name=".imageSelect.ImageActivity" />
+        <activity android:name=".imageSelect.ImageViewActivity" />
+        <activity android:name=".roundImage.RoundImageActivity"></activity>
     </application>
 
 </manifest>
